@@ -1,5 +1,6 @@
 Start application :- fire command from root directory
-					mvn spring-boot:run 
+					mvn clean install -- to generate executable .jar file
+					mvn spring-boot:run   -- to run the application
 #################################################################################
 Sample Data are created. Please have a look on \myCoffeeHouse\src\main\java\ig\assignment\repository.inventary.java file for details.
 Sample Customer with name :- "Prakash", "Manish"
